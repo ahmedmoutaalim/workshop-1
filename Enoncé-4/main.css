@@ -1,0 +1,131 @@
+html{
+
+    overflow: hidden;
+  
+}
+
+
+.game
+{
+font-family: 'Tangerine', serif;
+ 
+background-image: url("istockphoto-672556284-612x612.jpg") ;
+background-repeat: no-repeat;
+width: 80%;
+margin: 0 auto;
+background-size: 100%;
+border: solid 1px;
+border-radius: 10px;
+text-align:center;
+min-height:700px;
+}
+
+.btn{
+    border:none;
+    margin: 0px 50px;
+    padding: 10px 50px;
+    border-radius:50px;
+    font-size: 20px;
+
+  
+}
+
+.btn:hover{
+    background:darkred;
+}
+
+.game h3
+{
+padding: 10px;
+background:darkred;
+font-size: 30px;
+color:white;
+font-size: 30px;
+}
+
+.game .game-body
+{
+padding: 20px;
+}
+
+.game .game-options
+{
+text-align:center;
+}
+.game .card{
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.game .status
+{
+display: inline-block;
+background:darkred ;
+border: solid 2px white;
+border-radius: 10px;
+padding: 5px 20px;
+margin: 0 auto;
+margin-top: 10px;
+color: white;
+display: none;
+}
+
+
+.players{
+width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+
+}
+
+.player{
+    width: 40%;
+    border: solid 5px #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background:#f5f5f5;
+    position: relative;
+  
+}
+
+.player.active{
+    border: solid 2px #222;
+}
+
+.points{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.deck{
+    float:left;
+    background: white;
+    color:#222;
+    padding: 10px;
+    border-radius:10px;
+    border: double 5px;
+}
+
+.btn
+{
+    background:#222;
+    color:white !important;
+
+}
+
